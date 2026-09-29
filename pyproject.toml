@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cpu-multimodal-rec-lab"
+version = "0.1.0"
+description = "CPU FREEDOM reproduction and missing-image imputation study"
+requires-python = ">=3.12"
+dependencies = ["numpy", "scipy", "pandas", "torch", "matplotlib", "psutil", "requests", "gdown"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+mmrec-lab = "mmrec_lab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+

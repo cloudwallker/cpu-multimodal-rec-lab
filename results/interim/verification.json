@@ -1,0 +1,69 @@
+{
+  "completed_development_runs": 5,
+  "completed_main_runs": 0,
+  "dataset_identity": "d5da0ba044736d8a6ecaa2f7831db9007cf9201e8710852db8e6482cb63a173b",
+  "outputs": {
+    "development_resources.png": "320cbd5bf75e2d26657852b7cd671db7b1c95f30757db787944257153f4f45ff",
+    "development_summary.csv": "55a8fd537587575e167177d44a0a309bed2661a135cc6ae790654bb4aaca743b",
+    "validation_curves.png": "dc7211c722aaf948582df0d37b5fde995cb15ff9d7212011fc7b5078f2cf80ef"
+  },
+  "planned_development_runs": 16,
+  "planned_main_runs": 45,
+  "runs": [
+    {
+      "artifacts_checked": 4,
+      "identity": "606b98ca326b8303af9c08467bad0863f402bac2d93cc231e429142dbb7c6fbc",
+      "result_sha256": "93241098e1a59557f56f75435f3a6829a07360c471e61bbc46ee3beedb0432b7",
+      "run_id": "backbone_d0.8_r0.0001",
+      "validation_predictions_match": true,
+      "validation_users": 2803
+    },
+    {
+      "artifacts_checked": 4,
+      "identity": "ff4f4353284ab4f928839c99ae1174800f23bd6bc455f7ad902cf05a21513c9d",
+      "result_sha256": "13dd5b76fdc894157b835f5ed09ea25e2a79c8ba2da167399aff3aae2b6ecd44",
+      "run_id": "backbone_d0.8_r0.001",
+      "validation_predictions_match": true,
+      "validation_users": 2803
+    },
+    {
+      "artifacts_checked": 4,
+      "identity": "a93978a45ac2de021f45b7f5a0c4c9c3c7b43a008d3e98e5027c4c748a4a1db7",
+      "result_sha256": "2a1ef87acb0f0e168e6ccaf6f8bbf3f74736352ab937a69b78dc6c97eebc6b5b",
+      "run_id": "backbone_d0.9_r0.0001",
+      "validation_predictions_match": true,
+      "validation_users": 2803
+    },
+    {
+      "artifacts_checked": 4,
+      "identity": "406565fa2b8eef1ba147669f611a8dd5f5c71151340631e167f888db2864af78",
+      "result_sha256": "85029f5fe2b77efe3217161641b40f419adbc696acb3e96890efdd857530436c",
+      "run_id": "backbone_d0.9_r0.001",
+      "validation_predictions_match": true,
+      "validation_users": 2803
+    },
+    {
+      "artifacts_checked": 7,
+      "identity": "915f610d2501639a76d5468eeba6879282557d992fcfe712b404427f4b5b1c91",
+      "result_sha256": "822a9196c46f2f8b769ee6a0547762f08aed865eb10c7dbe799436f3a07ef8ec",
+      "run_id": "fixed_mix_alpha0.25_uniform30",
+      "validation_predictions_match": true,
+      "validation_users": 2803
+    }
+  ],
+  "scope": "completed development runs only",
+  "script_sha256": "3b6c6909a6918825e7c60794d702ca91fbfb6f03f5c783049f37e14aa8add9bc",
+  "source_files": {
+    "data.py": "fbcc14db7d550d98bff53912fdc3fcf691a2c9fb3fdbd3cf48aa6fa973e5d57d",
+    "impute.py": "b1e97135daffa272c2a4c251f1dff2b13d56df54b0f9f891d7706bf05d8e19cb",
+    "io.py": "4fe9a9fed06e5450281ed5fbc5b745e5effaac8ae6653238e5706efc95bf8a98",
+    "metrics.py": "afe3a0a30e5a6b014f6004c28b26d0250fd85e62f662b1e57f18f7b0d671840b",
+    "model.py": "f05dcd0421afce9f80b5635abdefc08c2b191acfc7fbe77a76d63b9d35305ea7",
+    "study.py": "93c28213d33fbe731c5c405e0539546569e2cece03f3892da9ef630f9908d4c4",
+    "train.py": "8f88e14a1a1d84c36e0a6b1862e298d816d53615e92b44d52703805fa4b37b76"
+  },
+  "success": true,
+  "test_evaluated": false,
+  "total_seconds": 8.508077200000116,
+  "training_performed": false
+}

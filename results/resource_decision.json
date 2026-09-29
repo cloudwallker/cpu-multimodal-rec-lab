@@ -1,0 +1,15 @@
+{
+  "basis": "CPU resource profile only; no test evaluation",
+  "decision": "retain target 2000-item subset; observed 1993 after train-only pruning",
+  "epochs": 200,
+  "estimated_200_epoch_seconds": 1645.7912753000128,
+  "estimated_45_run_hours": 20.57239094125016,
+  "estimated_not_measured": true,
+  "n_items": 1993,
+  "num_threads": 2,
+  "patience": 20,
+  "peak_rss_bytes": 823242752,
+  "physical_ram_bytes": 16849293312,
+  "profile_identity": "55cfa8f3abc64a1049470874d6a17b184db2ab89eeaf0dab3b8551f09876c89f",
+  "selected_data": "data/processed/baby2000"
+}

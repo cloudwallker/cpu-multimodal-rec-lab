@@ -1,0 +1,21 @@
+{
+  "available_ram_at_measurement": 849874944,
+  "logical_cpus": 20,
+  "machine": "",
+  "packages": {
+    "gdown": "6.4.1",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "psutil": "7.2.2",
+    "pytest": "9.1.1",
+    "scipy": "1.18.1",
+    "torch": "2.14.0+cpu"
+  },
+  "physical_cpus": 14,
+  "platform": "Windows",
+  "platform_release": "11",
+  "processor": "12th Gen Intel(R) Core(TM) i7-12700H",
+  "python": "3.12.12",
+  "ram_bytes": 16849293312
+}

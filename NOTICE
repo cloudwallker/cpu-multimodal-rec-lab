@@ -1,0 +1,37 @@
+cpu-multimodal-rec-lab：第三方来源与署名 / Attribution and provenance
+
+本项目的 src/mmrec_lab/model.py 改编自 Xin Zhou 在 enoche/MMRec
+公开的 src/models/freedom.py。保留原作者贡献者署名。
+CPU adaptation based on Xin Zhou's FREEDOM implementation in enoche/MMRec.
+
+上游仓库 / Upstream: https://github.com/enoche/MMRec
+固定提交 / Commit: c68ee7c9b0de1ca7c5150258322edb4994be29d9
+上游模型文件 SHA256:
+b5bbbf0a5e04c347bcb508bfdfb5351aec9417caba1fabf151cd55825e9dd732
+适配日期 / Adaptation date: 2026-09-29
+许可 / License: GNU General Public License version 3; see LICENSE.
+模型适配文件注明 SPDX-License-Identifier: GPL-3.0-only。
+
+研究论文 / Research paper:
+Xin Zhou and Zhiqi Shen, A Tale of Two Graphs: Freezing and Denoising Graph
+Structures for Multimodal Recommendation, ACM Multimedia 2023.
+https://doi.org/10.1145/3581783.3611943
+
+external/FREEDOM 是另行保留的研究参照快照，不作为上述GPL适配来源。
+其 README 声明 "No commercial use. License reserved by authors."
+该声明应单独保留，不能将此仓库全部材料改称GPL。
+https://github.com/enoche/FREEDOM
+Commit: 6f896e244123cfe9baaf7e92a1a3bfc06dfdc3c2
+
+数据 / Data:
+作者预处理的 Amazon Baby 特征、交互与映射通过作者公开Drive入口获取。
+代码LICENSE不授予数据、原始图片或文本的额外许可。当前未确认数据包
+的独立再分发许可；数据文件不因同目录代码使用GPL而自动属于GPL。
+来源、下载ID、SHA256、原生缺图限制见 docs/data-provenance.md。
+The code license does not grant additional rights to the Amazon-derived data,
+images, text, or author-preprocessed feature files. Their separate redistribution
+terms remain unverified; do not treat them as GPL-licensed data.
+
+本NOTICE记录可核验来源与原署名，不创造或转移第三方版权。
+This notice records provenance and attribution; it does not create or transfer
+third-party copyrights.
