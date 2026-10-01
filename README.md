@@ -12,6 +12,8 @@ English | [中文](README_ZH.md)
 
 *Validation Recall@20 across five completed development runs on one fixed Baby subset. Curves from different conditions are shown separately; this figure is not a paired method comparison.*
 
+![cpu-multimodal-rec-lab](results/interim/cartoon-infographic.png)
+
 ## Current evidence
 
 This is a **reproducible engineering project and an interim report**, not a completed 45-run study. Five of 16 development configurations finished (four `clean` backbone candidates and one `uniform30` fixed-mix candidate). A sixth run stopped after a saved epoch-35 checkpoint. The 45 planned main runs were not started. No independent test metric or `support_mix` benefit is claimed.
