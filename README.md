@@ -2,7 +2,7 @@
 
 ### A CPU-scale FREEDOM reproduction with a missing-image study
 
-**Run a real image–text recommendation pipeline on pre-extracted Amazon Baby features, inspect validation rankings, and reproduce a documented development-stage result.** The code implements six missing-image treatments and a support-dependent shrinkage candidate; their comparative effect has **not** yet been established.
+**Train a CPU adaptation of FREEDOM on pre-extracted Amazon Baby image–text features, inspect validation rankings and five recorded development runs.** Six missing-image treatments are implemented, including the support-dependent shrinkage candidate `support_mix`.
 
 English | [中文](README_ZH.md)
 
@@ -16,9 +16,9 @@ English | [中文](README_ZH.md)
 
 ## Current evidence
 
-This is a **reproducible engineering project and an interim report**, not a completed 45-run study. Five of 16 development configurations finished (four `clean` backbone candidates and one `uniform30` fixed-mix candidate). A sixth run stopped after a saved epoch-35 checkpoint. The 45 planned main runs were not started. No independent test metric or `support_mix` benefit is claimed.
+The **implementation and interim report** include five completed development configurations out of 16: four `clean` backbone candidates and one `uniform30` fixed-mix candidate. A sixth run stopped after a saved epoch-35 checkpoint. The 45-run main study, independent test evaluation and comparative evaluation of `support_mix` remain pending.
 
-On the prepared subset (1,993 items, 8,967 users), the selected `clean` backbone reached **13.3173% validation Recall@20** and **5.9899% validation NDCG@20** at epoch 85. This is a validation-selected result from development seed 101, not a paper-scale reproduction or held-out test score. The five complete runs took 7.73–18.53 minutes each and observed 660.11–750.90 MiB peak process RSS on an i7-12700H with two CPU training threads. See the [interim findings](docs/findings.md) and [machine-readable summary](results/interim/development_summary.csv).
+On the prepared subset (1,993 items, 8,967 users), the selected `clean` backbone reached **13.3173% validation Recall@20** and **5.9899% validation NDCG@20** at epoch 85. This development result was selected on validation with seed 101 on the prepared Baby subset. The five complete runs took 7.73–18.53 minutes each and observed 660.11–750.90 MiB peak process RSS on an i7-12700H with two CPU training threads. See the [interim findings](docs/findings.md) and [machine-readable summary](results/interim/development_summary.csv).
 
 The five saved best checkpoints were independently loaded and their validation Top-20 rankings recomputed for 2,803 users; the comparison matched the original records. [Verification metadata](results/interim/verification.json) documents this historical check. **Raw data, prepared datasets, checkpoints (`best.pt` / `resume.pt`), per-user results, and local environments are not distributed in this repository.** Therefore the published summary is inspectable, but rerunning checkpoint verification requires regenerating local data and training outputs.
 
